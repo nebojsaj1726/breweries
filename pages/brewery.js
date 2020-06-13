@@ -36,7 +36,10 @@ class Brewery extends React.Component {
             <p>{brewery.street}</p>
             <p>Phone: {brewery.phone}</p>
             <p>
-              Website: <a href={brewery.website_url}>{brewery.website_url}</a>
+              Website:{" "}
+              <a href={brewery.website_url} target="_blank">
+                {brewery.website_url}
+              </a>
             </p>
           </div>
         </main>
@@ -46,7 +49,7 @@ class Brewery extends React.Component {
             padding: 1em;
           }
           .brewery-title {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             margin: 0;
             padding: 1rem 0;
             color: #3e3728;

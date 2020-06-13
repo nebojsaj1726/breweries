@@ -34,7 +34,7 @@ const Layout = ({ children, title, description }) => (
         color: #3e3728;
       }
       nav .main-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
       }
     `}</style>
     <style global jsx>{`

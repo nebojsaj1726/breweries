@@ -26,7 +26,7 @@ const BrwList = ({ breweries }) => (
         padding: 1em 0;
       }
       .breweries-title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 400;
         margin: 0;
         position: relative;
