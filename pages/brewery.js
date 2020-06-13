@@ -49,7 +49,7 @@ class Brewery extends React.Component {
             padding: 1em;
           }
           .brewery-title {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             margin: 0;
             padding: 1rem 0;
             color: #3e3728;
